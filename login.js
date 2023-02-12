@@ -15,4 +15,5 @@ document.getElementById('login__btn').addEventListener('click', function () {
     else {
         console.log('Invalid user')
     }
+    window.location.href = 'bank.html'
 })
